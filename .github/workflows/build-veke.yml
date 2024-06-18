@@ -1,0 +1,15 @@
+name: 'Redox'
+on:
+    push:
+    pull_request:
+    workflow_dispatch:
+jobs:
+    build:
+        if: github.repository_owner == 'vekexasia'
+        uses: ./.github/workflows/main.yml
+        secrets: inherit
+        with:
+            keyboard: '["redox"]'
+            alphas: '["QWERTY"]'
+            nav: '["vi"]'
+

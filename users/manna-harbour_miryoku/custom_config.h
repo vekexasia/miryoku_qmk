@@ -5,3 +5,8 @@
 
 #pragma once
 
+#define MIRYOKU_LAYER_SYM \
+KC_GRV,            KC_TILD,           KC_HASH,           KC_AMPR,           KC_PIPE,           KC_CIRC,           KC_LCBR,           KC_RCBR,           KC_LBRC,           KC_RBRC,     \
+KC_EXLM,           KC_UNDS,           KC_COLN,           KC_EQUAL,          KC_DLR,            KC_AT,             KC_LPRN,           KC_RPRN,           KC_UNDS,           KC_SCLN,           \
+KC_PERC,           KC_QUES,           KC_ASTR,           KC_PLUS,           KC_BSLS,           KC_SLSH,           KC_MINUS,          KC_LT,             KC_GT,             KC_DQT,              \
+U_NP,              U_NP,              U_NP,              U_NP,              U_NP,              U_NP,              U_NP,              U_NP,              U_NP,              U_NP
