@@ -9,7 +9,7 @@ jobs:
         uses: ./.github/workflows/main.yml
         secrets: inherit
         with:
-            keyboard: '["redox/default"]'
+            keyboard: '["redox/rev1"]'
             alphas: '["QWERTY"]'
             nav: '["vi"]'
 
